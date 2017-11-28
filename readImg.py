@@ -59,7 +59,7 @@ def runThrough():
 		logfile.write(str(i)+" : ")
 		v = None
 		
-		# On the first and last type of images we use a dictionnary to store known images,
+		# The first and last type of images we use a dictionnary to store known images,
 		# so we just have to compare known images to the dictionnary to know their value
 		if( i <= 1356 or i >= 2685):
 			for n in storedKnownValue:
